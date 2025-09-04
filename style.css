@@ -1,0 +1,292 @@
+body{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: "Geist", sans-serif;
+}
+
+li{
+list-style: none;
+text-align: center;
+}
+
+header{
+position: relative;
+padding: 20px 2rem;
+}
+
+.con{
+width: 100%;
+height: 60px;
+margin: 0 auto;
+max-width: 1200px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.home{
+font-weight: 700;
+font-style: bold;
+font-size: 18px;
+color: rgba(217, 4, 41, 1);
+line-height: 100%;
+}
+
+.sublis{
+color: rgba(0, 0, 0, 0.5);
+font-weight: 500;
+font-style: medium;
+font-size: 18px;
+line-height: 100%;
+}
+
+.nav,.links{
+display: flex;
+gap: 20px;
+}
+
+
+.btnOne{
+width: 135px;
+height: 44px;
+border-radius: 24px;
+padding: 10px 20px;
+border: none;
+outline: none;
+background-color: rgba(18, 18, 18, 0.1);
+color: rgba(18, 18, 18, 1);
+font-weight: 400;
+line-height: 100%;
+font-size: 18px;
+text-align: center;
+}
+
+.btntwo{
+color: rgba(255, 255, 255, 1);
+outline: none;
+border: none;
+width: 99px;
+height: 42px;
+cursor: pointer;
+padding: 10px 20px;
+background-color: rgba(217, 4, 41, 1);
+border-radius: 24px;
+font-weight: 600;
+font-size: 18px;
+line-height: 120%;
+text-align: center;
+}
+
+.btns{
+display: flex;
+gap: 16px;
+}
+
+.d{
+display: flex;
+gap: 10px;
+}
+
+.searchIcon{
+width: 20px;
+height: 20px;
+position: relative;
+left: 3px;
+}
+
+.firstborder{
+width: 18px;
+height: 0px;
+position: relative;
+top: 7px;
+left: 3px;
+border: 1.5px solid rgba(51, 51, 51, 1);
+}
+
+.bor{
+display: flex;
+gap: 10px;
+}
+.secondborder{
+width: 2.99px;
+height: 0px;
+position: relative;
+top: 12px;
+left: 3px;
+border: 1.5px solid rgba(51, 51, 51, 1);
+}
+
+.subborder{
+position: relative;
+top: 12px;
+/* left: 9.49px; */
+width: 11.51px;
+height: 0px;
+border: 1.5px solid rgba(51, 51, 51, 1) ;
+}
+
+.thirdborder{
+width: 18px;
+height: 0px;
+position: relative;
+top: 17px;
+left: 3px;
+border: 1.5px solid ;
+}
+
+.firstborder,.subborder,.secondborder{
+border-radius: 1.5px;
+}
+
+.close{
+  position: relative;
+  bottom: 120px;
+  left: 200px;
+display: none;
+}
+
+ 
+.bar{
+width: 24px;
+height: 24px;
+margin-top: 5px;
+display: none;
+}
+.close{
+width: 24px;
+height: 24px;
+margin-top: 5px;
+display: none;
+}
+#close{
+cursor: pointer;
+}
+
+.firstSubHeader,.firstSubspan{
+  width: 557px;
+  height: 94px;
+  font-weight: 700;
+  font-style: bold;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+.firstSubspan{
+  color: rgba(217, 4, 41, 1);
+}
+
+.firstSectionpara{
+  width: 557px;
+  height: 116px;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 22px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+.firstSubBtn{
+  width: 273px;
+  height: 68px;
+  border-radius: 24px;
+  padding: 10px 30px;
+  background-color: rgba(217, 4, 41, 1);
+  border: none;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 120%;
+  letter-spacing: 0%;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+}
+
+.firstSection{
+  background-image: url(imgs/Vector.png);
+  background-repeat: no-repeat;
+  background-position:center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.firstSubSection{
+  display: flex;
+  justify-content: center;
+  padding: 70px;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 8px;
+}
+    
+.div1 {
+    grid-row: span 3 / span 3;
+}
+
+.div2 {
+    grid-row: span 2 / span 2;
+}
+
+.div3 {
+    grid-row: span 2 / span 2;
+    grid-column-start: 2;
+    grid-row-start: 3;
+}
+  
+.firstSubSection{
+display: flex;
+justify-content: center;
+}
+
+.img3{
+border-radius: 16px;
+}
+
+@media screen and (max-width: 880px) {
+  nav{
+    background-color: rgba(217, 4, 41, 1);
+    position: fixed;
+    height: 100vh;
+    width: min(15em, 100%);
+    z-index: 10;
+    top: 0;
+    right: -400px; /* hidden by default */
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 150px;
+    text-align: center;
+    transition: right 0.3s ease-in-out;
+  }
+ul{
+display: flex;
+flex-direction: column;
+margin-top: -100px;
+}
+  nav.show {
+    right: 0; /* slide into view */
+  }
+
+  .home,.sublis{ 
+ color: white;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .close {
+    display: block;
+    
+  }
+
+  .bar {
+    display: block;
+    cursor: pointer;
+  }
+}
