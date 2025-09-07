@@ -382,7 +382,7 @@ border: 1px solid rgba(217, 4, 41, 1);
   display: flex;
   margin-top: 40px;
   /* justify-content: space-around; */
-  /* gap: 28px; */
+  gap: 28px;
 }
 
 .messiheader{
@@ -393,21 +393,77 @@ border: 1px solid rgba(217, 4, 41, 1);
   font-weight: 600;
   line-height: 100%
 }
+
 .messisubcontent{
-font-size: 14px;
+font-size: 18px;
 line-height: 100%;
-width: 617px;
-height: 54px;
-}
-.messicontent{
+font-weight: 600;
+color: rgba(16, 16, 16, 1);
 width: 617px;
 height: 23px;
-font-size: 18px;
-font-weight: 600;
-  line-height: 100%
 }
+
+.messicontent{
+width: 617px;
+height: 54px;
+font-size: 14px;
+font-weight: 600;
+  line-height: 100%;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+
+.messicontenttwo{
+width: 84px;
+height: 18px;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+color: rgba(0, 0, 0, 0.5);
+}
+
+.messicontenttwoCon{
+  display: flex;
+  gap: 10px;
+}
+
 .messi{
   border-radius: 18px;
+}
+
+.subtextheaders{
+width: 389px;
+height: 18px;
+font-weight: 600;
+font-size: 14px;
+line-height: 100%;
+letter-spacing: 0;
+color: rgba(0, 0, 0, 0.8);
+}
+
+.secondContentSub{
+  width: 389px;
+  height: 46px;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+}
+
+
+
+.secondimg{
+  width: 154.65px;
+  height: 103px;
+   border-radius: 18px;
+}
+
+.css{
+  display: flex;
+  gap: 20px;
+}
+.ssss{
+  display: flex;
+  flex-direction: column;
 }
 
 @media screen and (max-width: 880px) {
@@ -461,14 +517,11 @@ font-weight: 600;
 }
 
 @media screen and (max-width: 1075px) {
- .firstSubSection {
+ .firstsubSection{
   display: flex;
   flex-direction: column;
   align-content: center;
   align-items: center;
  }
- .ghg{
-  display: flex;
-  justify-content: center;
- }
+
 }
