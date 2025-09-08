@@ -2,7 +2,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="max-width=device-max-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,7 +16,8 @@
     <div class="con">
       <div class="logo"><img src="imgs/GESPORT.png" alt=""></div>
       <nav id="navBar">
-        <div class="close" id="close"><span>❌</span></div>
+        <!-- <div class="close"  id="close"><span>❌</span></div> -->
+        <i class="fa fa-times" id="close" aria-hidden="true"></i>
         <ul class="links">
           <li class="sublis"><span class="home">Home</span></li>
           <li class="sublis">Live Score</li>
@@ -71,12 +72,13 @@
         <div class="borders"><span></span></div>
       </div>
       <div class="secondSectionNav">
-        <ul class="secondUl">
-          <li class="sublis"><span class="home">Trending</span></li>
-          <li class="sublis">Football</li>
-          <li class="sublis">Basketball</li>
-          <li class="sublis">Tennis</li>
+        <ul class="sheader">
+          <li class="s"><span class="st">Trending</span></li>
+          <li class="s">Football</li>
+          <li class="s">Basketball</li>
+          <li class="s">Tennis</li>
         </ul>
+
         <div class="ddd">
           <button class="dddbtn">Explore All Event</button>
         </div>
@@ -114,10 +116,10 @@
     </section>
     <section class="thirdSection">
       <div class="secondSectionheader">
-        <h2 class="headers">Top Matches & Events</h2>
+        <h2 class="headers">Latest Sports Buzz</h2>
         <div class="borders"><span></span></div>
         <div class="ddd">
-          <button class="thirdbtn">Explore All Event</button>
+          <button class="thirdbtn">Read More Stories</button>
         </div>
         <div class="mmm">
           <div class="firstcontent">
@@ -193,6 +195,39 @@
           </div>
         </div>
 
+    </section>
+    <section class="fourthsection">
+      <h2 class="headerse">Latest Sports Buzz</h2>
+      <div class="borderL"><span></span></div>
+      <div class="fourthCon">
+        <div class="css">
+          <img class="lb1" src="imgs/lb3.png" alt="">
+          <div class="ffff">
+            <span class="lbtext1">Football</span>
+            <span class="secondContentSub">India vs Pakistan: Rivalry That Stops the <br>World </span>
+            <div> <img src="imgs/Frame star.png" alt=""></div>
+            <p class="ps">Born in 1984 and raised by his single mother, Gloria James, LeBron grew up facing challenges that could
+              have easily derailed his future. Instead, basketball became his way forward. By the time he was in high
+              school, he was already being called “The Chosen One”, with scouts and fans predicting greatness long
+              before he stepped onto an NBA court.
+              At 40, LeBron James continues to compete at the highest level, proving that age is no barrier to
+              excellence. Whether breaking records, inspiring the next generation, or giving back to his community, he
+              remains more than just an athlete—he is a symbol of what’s possible with dedication and vision.
+              As LeBron often reminds fans: “I’m just a kid from Akron.” Yet his story proves that sometimes, kids from
+              small towns grow up to change the world.</p>
+          </div>
+          <div><img src="imgs/lb1.png"  class="lb2"></div>
+          <div>
+          <img src="imgs/lb2.png" class="lb3" alt="" srcset="">
+           <div class="Ibls">
+            <li class="lbLi">Top 10 Dunks of the Season</li>
+             <li class="IbLi2">Exclusive Post-Match Interview</li>
+           </div>
+            <div class="ds">
+          <button class="fourtbtn">Read More Stories</button>
+        </div>
+          </div>
+        </div>
     </section>
   </div>
   <script src="app.js"></script>
