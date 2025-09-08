@@ -13,7 +13,6 @@ const closeSideBar = () => {
 Close.onclick = () => closeSideBar()
 Open.onclick = () => opensideBar()
 
-let Data = [{
-}]
 
-console.log(Data[0].TopMatches);
+
+
